@@ -1,0 +1,22 @@
+{
+  "apiVersion": "v1",
+  "kind": "Pod",
+  "metadata": {
+    "name": "",
+    "labels": {
+      "purpose": "whatsit-export-pascalvoc-pod",
+      "podId": ""
+    }
+  },
+  "spec": {
+    "restartPolicy": "Never",
+    "containers": [{
+      "name": "whatsit-export-pascalvoc",
+      "image": "gcr.io/whatsit-174908/whatsit-export-pascalvoc:latest",
+      "env": [{
+        "name": "podId",
+        "value": ""
+      }]
+    }]
+  }
+}
