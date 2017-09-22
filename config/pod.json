@@ -14,8 +14,8 @@
       "name": "whatsit-export-pascalvoc",
       "image": "gcr.io/whatsit-174908/whatsit-export-pascalvoc:latest",
       "env": [{
-        "name": "podId",
-        "value": ""
+        "name": "PROJECT_ID",
+        "value": "projectId"
       }]
     }]
   }
